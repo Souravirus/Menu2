@@ -1,4 +1,3 @@
-
 #header
 
 {margin:5px 5px 5px 5px;
@@ -17,9 +16,9 @@ font-family:Monotype Corsiva,serif;
 
 #facebook
 
-{position:relative;
-float:left;
-margin:100px 5px 5px 70px;
+{display:inline-block;
+
+margin:85px 25px 5px 100px;
 
 padding-top:45px;
 padding-left:60px;
@@ -38,7 +37,7 @@ border:2px solid black;
 text-decoration:none;
 }
 #facebook:hover{
-margin:85px 5px 5px 62px;
+margin:70px 5px 5px 100px;
 padding-top:60px;
 padding-left:75px;
 }
@@ -47,9 +46,8 @@ font-size:25px;
 color:orange;}
 #github
 {
-positon:relative;
-float:right;
-margin:100px 70px 5px 5px;
+display:inline-block;
+margin:100px 25px 20px 25px;
 padding-top:45px;
 padding-left:60px;
 height:120px;
@@ -68,7 +66,7 @@ text-decoration:none;
 padding-left:5px;
 }
 #github:hover{
-margin:85px 75px 5px 5px;
+margin:85px 25px 5px 25px;
 padding-top:60px;
 padding-left:75px;
 }
@@ -77,10 +75,8 @@ font-size:25px;
 color:orange;}
 #youtube
 
-{position:relative;
-clear:both;
-float:left;
-margin:100px 5px 5px 70px;
+{display:inline-block;
+margin:100px 25px 5px 25px;
 
 padding-top:45px;
 padding-left:60px;
@@ -99,7 +95,7 @@ border:2px solid black;
 text-decoration:none;
 }
 #youtube:hover{
-margin:85px 5px 5px 62px;
+margin:85px 20px 5px 20px;
 padding-top:60px;
 padding-left:75px;
 }
@@ -107,11 +103,8 @@ padding-left:75px;
 font-size:25px;
 color:orange;}
 #Twitter
-{
-positon:relative;
-
-float:right;
-margin:100px 70px 5px 5px;
+{display:inline-block;
+margin:100px 70px 5px 25px;
 padding-top:45px;
 padding-left:60px;
 height:120px;
@@ -131,7 +124,7 @@ color:green;
 padding-left:5px;
 }
 #Twitter:hover{
-margin:85px 75px 5px 5px;
+margin:85px 75px 5px 20px;
 padding-top:60px;
 padding-left:75px;
 }
